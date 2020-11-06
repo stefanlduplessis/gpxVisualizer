@@ -10,3 +10,7 @@ Save your gpx file in the gpxDir that you want visualized. Export your gpx file 
 
 run
 
+![alt text](https://github.com/stefanlduplessis/gpxVisualizer/blob/main/route.png?raw=true)
+![alt text](https://github.com/stefanlduplessis/gpxVisualizer/blob/main/elevation.png?raw=true)
+![alt text](https://github.com/stefanlduplessis/gpxVisualizer/blob/main/speed.png?raw=true)
+
