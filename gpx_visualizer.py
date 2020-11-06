@@ -79,7 +79,6 @@ if __name__ == "__main__":
             df.plot(kind='line', x='long', y='lat', color='red', legend=False).set(xlabel="Longitude", ylabel="Latitude", title="Route")
             df.plot(kind='line', x='dist', y='ele', color='blue', ylim=(0, max(data["ele"]) + 100), title="Elevation", legend=False).set(xlabel="Distance (km)", ylabel="Elevation (m)")
             df.plot(kind='line', x='dist', y='moving_ave_speed', color='orange', title="Speed", legend=False).set(xlabel="Distance (km)", ylabel="Speed (km/h)")
-            plt.figure(num=name)
             plt.show()
         else:
             continue
